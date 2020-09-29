@@ -1,0 +1,11 @@
+secretGenerator:
+- name: secretgenerator
+  literals:
+  - password=arnallujan
+resources:        
+  - wordpress_mysql_service.yaml
+  - wordpress_mysql_persistentvolume.yaml
+  - wordpress_mysql_deploment.yaml
+  - wordpress_service.yaml
+  - wordpress_persistentvolume.yaml
+  - wordpress_deploment.yaml
